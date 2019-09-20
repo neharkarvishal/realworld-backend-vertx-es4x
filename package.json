@@ -1,0 +1,26 @@
+{
+  "name": "realworld-backend-vertx-es4x",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A barebone vertx-es4x application project",
+  "main": "index.js",
+  "keywords": [
+    "vertx",
+    "es4x"
+  ],
+  "license": "Unlicensed",
+  "author": "neharkar.vishal@gmail.com",
+  "scripts": {
+    "start": "es4x",
+    "test": "es4x test index.test.js",
+    "postinstall": "es4x install"
+  },
+  "devDependencies": {
+    "@vertx/unit": "latest"
+  },
+  "dependencies": {
+    "@vertx/core": "latest",
+    "@vertx/web": "latest",
+    "es4x-pm": "latest"
+  }
+}
